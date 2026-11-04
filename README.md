@@ -112,9 +112,7 @@ Tree-based models outperform logistic regression, which suggests non-linear rela
 
 ## Author
 
-**Yaw Asante**
-
-**(Data Scientist and Financial Economist)**
+**Yaw Asante** - Data Scientist and Financial Economist
 
 Email: vkpoasante@gmail.com
 
