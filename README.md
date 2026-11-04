@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34253831/README.md)
 # Predicting Customer Churn in a Telecom Company
 
 Exploratory data analysis (EDA) and baseline machine-learning models for a telecom customer dataset, to understand which account, billing, usage and service characteristics are associated with customers leaving (churning) and to predict who is likely to churn.
