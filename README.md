@@ -2,24 +2,6 @@
 
 Exploratory data analysis (EDA) and baseline machine-learning models for a telecom customer dataset, to understand which account, billing, usage and service characteristics are associated with customers leaving (churning) and to predict who is likely to churn.
 
-> **Project status:** EDA, data preparation and baseline predictive models are complete. Hyperparameter tuning and threshold selection are planned — see [Roadmap](#roadmap).
-
----
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Workflow](#workflow)
-- [Key Findings](#key-findings)
-- [Data Quality Notes](#data-quality-notes)
-- [Roadmap](#roadmap)
-- [Tech Stack](#tech-stack)
-- [License](#license)
-
----
 
 ## Project Overview
 
@@ -40,7 +22,6 @@ Customer churn is costly for telecom providers: retaining an existing customer i
 | Columns | 15 |
 | Target | `Target Churn` (label) / `Target Code` (0 = No Churn, 1 = Churn) |
 | Class balance | ~48.6% Churn, ~51.4% No Churn |
-| Source | _Add the source/provider and licence of the data here_ |
 
 ### Data dictionary
 
@@ -81,37 +62,6 @@ Customer churn is costly for telecom providers: retaining an existing customer i
 
 - Python 3.9+
 - Jupyter Notebook or JupyterLab
-
-### Installation
-
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-pip install -r requirements.txt
-```
-
-The included `requirements.txt` contains:
-
-```
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-jupyter
-```
-
-### Run
-
-```bash
-jupyter notebook Customer_Churn.ipynb
-```
-
-Run all cells from top to bottom. Keep `Telco_Churn_Data.csv` in the same folder as the notebook.
 
 ## Workflow
 
